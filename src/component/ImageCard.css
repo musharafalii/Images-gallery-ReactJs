@@ -1,0 +1,23 @@
+.image-card {
+    position: relative;
+    width: 200px; /* Set the desired width */
+    margin: 10px;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+  }
+  

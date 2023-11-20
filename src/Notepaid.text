@@ -1,0 +1,9 @@
+
+Json-server
+1- npm init -y
+2- npm i json-server
+
+3- Database - folder
+4- Database/db.json
+
+setup => json-server --watch ./database/db.json

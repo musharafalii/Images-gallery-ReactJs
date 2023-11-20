@@ -1,0 +1,100 @@
+.image-list {
+    /* width: ; */
+    position: relative;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    /* Unlimited rows with a minimum height of 100px */
+    gap: 5px;
+    margin: 0px;
+}
+
+.image-list img {
+    display: grid;
+    width: auto;
+    height: 200px;
+}
+
+.image-list li {
+    list-style: none;
+}
+
+.image-list .price {
+    display: flex;
+}
+
+.grid-item {
+    background-color: #eee;
+    text-align: center;
+}
+
+/* Responsive styles using media queries */
+@media (max-width: 768px) {
+    .image-list {
+        grid-template-columns: repeat(1, 1fr);
+        /* 3 columns for screens up to 768px */
+    }
+}
+
+@media (max-width: 480px) {
+    .image-list {
+        grid-template-columns: repeat(1, 1fr);
+        /* 2 columns for screens up to 480px */
+    }
+}
+
+
+
+.image-name {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    padding: 0px;
+    margin: 0%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: aliceblue;
+    background-color: rgb(202, 0, 0);
+    font-size: 15px;
+    padding: 16px 32px;
+}
+
+.cart {
+    padding: 3px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}

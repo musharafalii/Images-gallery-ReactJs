@@ -1,0 +1,23 @@
+.searchfield{
+    padding: 10px;
+    padding-top: 30px;
+
+}
+.searchfield input{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    
+}
+.searchfield input:focus{
+ outline: none;
+    
+}
+
+.searchfield button{
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(202, 0, 0);
+    font-weight: 600;
+    border: none;
+}

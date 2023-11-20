@@ -1,0 +1,25 @@
+.hero_section{
+    width: auto;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+.hero_section .title{
+    padding: 5px;
+    font-size:35px;
+}
+.hero_section .subtitle{
+    font-size: x-large;
+}
+
+
+.hero_section .Search{
+    justify-content: center;
+    align-items: center;
+}
+
